@@ -1,0 +1,52 @@
+* {
+  margin : 2px;
+  background-color: azure;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: burlywood;
+}
+
+#main {
+  width: 100x;
+
+  border: 5px solid #c3c3c3;
+  display: flex;
+}
+
+#main div {
+  flex-grow: 0;
+  flex-shrink: 0;
+ 
+}
+
+
+#leftSide {
+  border :2px solid pink;  
+  width: 15%;
+}
+
+#rightSide {
+border :2px solid blue;  
+width: 85%;
+}
+  
+iframe {
+  position: absolute; 
+  top:15%; 
+height: 90%; 
+width: 85%; 
+ border: 2px solid red;   
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: burlywood;
+}

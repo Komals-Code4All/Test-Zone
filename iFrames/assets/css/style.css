@@ -1,0 +1,58 @@
+:root {
+    --bgColor : snow;
+  --txtColor : black;
+  }
+  
+  
+  * {
+    background-color: var(--bgColor);
+    color : var(--txtColor);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+
+
+#container {
+        display: flex;
+         height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    border : 4px solid black;
+    }
+
+#flex-container > div {
+       margin: 10px;
+        padding: 10px;
+        flex-basis: auto;
+        border : 4px solid black;
+    }
+
+
+
+#leftSide {
+    height: 100%;
+    width: 25%;
+    border: 4px solid blue;
+}
+
+#rightSide {
+    height: 100%;
+    width: 75%;
+    border: 4px solid greenyellow;
+} 
+
+
+iframe {
+    height: 100%;
+    width: 100%;
+   border: 2px solid red;   
+}
+
+/* section {
+    background-color: var(--bgColor)
+} */
+
+/* article {
+    background-color: pink;
+} */
